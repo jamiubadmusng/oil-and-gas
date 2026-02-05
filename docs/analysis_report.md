@@ -410,6 +410,4 @@ The techniques demonstrated can be applied to other oil & gas fields to optimize
 
 ---
 
-*Report generated as part of the Oil & Gas Production Analysis project.*
-
 *Contact: jamiubadmus001@gmail.com*
