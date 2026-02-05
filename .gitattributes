@@ -1,0 +1,29 @@
+# Auto detect text files and perform LF normalization
+* text=auto
+
+# Python
+*.py text diff=python
+
+# Jupyter notebooks
+*.ipynb text
+
+# Data files
+*.csv text
+*.xlsx binary
+*.xls binary
+
+# Documentation
+*.md text
+*.txt text
+
+# Images
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.svg text
+
+# Models
+*.joblib binary
+*.pkl binary
+*.h5 binary
