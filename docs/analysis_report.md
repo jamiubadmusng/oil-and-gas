@@ -101,8 +101,8 @@ The Volve field was an offshore oil and gas field located in the southern part o
 | **Production Start** | February 2008 |
 | **Production End** | September 2016 |
 | **Operator** | Equinor (formerly Statoil) |
-| **Total Oil Produced** | ~10.7 million Sm³ |
-| **Total Gas Produced** | ~2.3 billion Sm³ |
+| **Total Oil Produced** | 10.04 million Sm³ |
+| **Total Gas Produced** | 1.48 billion Sm³ |
 
 ### 3.2 Wells in the Dataset
 
@@ -110,13 +110,13 @@ The dataset includes production data from 7 wellbores:
 
 | Well Name | Type | Description |
 |-----------|------|-------------|
-| 15/9-F-1 C | Producer | Main production well |
-| 15/9-F-4 | Producer | Production well |
-| 15/9-F-5 | Producer | Production well |
+| 15/9-F-1 C | Producer | Production well (late addition) |
+| 15/9-F-4 | Injector | Water injection well |
+| 15/9-F-5 | Injector | Water injection well |
 | 15/9-F-11 | Producer | Production well |
-| 15/9-F-12 | Producer | Production well |
-| 15/9-F-14 | Producer | Production well |
-| 15/9-F-15 D | Injector | Water injection well |
+| 15/9-F-12 | Producer | Main production well (top producer) |
+| 15/9-F-14 | Producer | Production well (second highest producer) |
+| 15/9-F-15 D | Producer | Production well (late addition) |
 
 ### 3.3 Why Volve Data is Significant
 
@@ -193,7 +193,7 @@ The analysis examined production data from the Equinor Volve field spanning appr
 
 - **Total production period**: September 2007 to December 2016
 - **Total daily records**: 15,634 (8,011 active production days after filtering)
-- **Wells analyzed**: 6 producer wells (F-1C, F-5, F-11, F-12, F-14, F-15D)
+- **Wells analyzed**: 5 producer wells (F-1C, F-11, F-12, F-14, F-15D) + 2 injectors (F-4, F-5)
 - **Production types**: Oil, Gas, Water
 
 ### 5.2 Key Statistics

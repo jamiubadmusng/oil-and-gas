@@ -31,7 +31,7 @@ In the oil & gas industry, unplanned downtime is extremely costly:
 
 | Metric | Value |
 |--------|-------|
-| Wells Analyzed | 6 producer wells |
+| Wells Analyzed | 5 producers + 2 injectors |
 | Production Records | 15,634 daily records |
 | Time Period | 2008-2016 (8+ years) |
 | Total Oil Production | 10.04 million Sm³ |
@@ -230,20 +230,22 @@ oil-and-gas/
 ## 📈 Key Results
 
 ### Production Overview
-- Total oil produced: [To be calculated] million Sm³
-- Total gas produced: [To be calculated] billion Sm³
-- Average daily production per well: [To be calculated] Sm³/day
-- Field production period: 2008-2016
+- **Total oil produced**: 10.04 million Sm³
+- **Total gas produced**: 1.48 billion Sm³
+- **Total water produced**: 15.32 million Sm³
+- **Average daily oil production**: 1,253 Sm³/day
+- **Field production period**: 2008-2016 (8+ years)
 
 ### Forecasting Performance
-- Best performing model: [To be determined]
-- MAPE on test set: [To be calculated]%
-- Forecast horizon: 30 days
+- **Best performing model**: Ridge Regression
+- **R² Score**: 99.99%
+- **MAPE on test set**: 0.61%
+- **MAE**: 1.95 Sm³
 
 ### Anomaly Detection
-- Total anomalies detected: [To be calculated]
-- Types of anomalies identified: [To be listed]
-- Correlation with known events: [To be analyzed]
+- **Total anomalies detected**: 149 days (5.03%)
+- **Detection method**: Isolation Forest
+- **Peak anomalies**: 2009 (highest production period)
 
 ---
 
@@ -307,16 +309,24 @@ anomalies = forecaster.detect_anomalies(
 ## 🔑 Key Insights
 
 ### 1. Production Decline Analysis
-[To be filled with actual insights after analysis]
+The Volve field exhibited classic exponential decline behavior, transitioning from peak production of ~9,000 Sm³/day in 2009 to ~1,500 Sm³/day by 2016—an 83% decline over 7 years following typical mature field characteristics.
 
 ### 2. Well Performance Comparison
-[To be filled with actual insights after analysis]
+- **F-12**: Top performer with 4.6 million Sm³ total oil (46% of field production)
+- **F-14**: Second performer with 3.9 million Sm³ (39%)
+- **F-11**: Third with 1.2 million Sm³ (12%)
+- Late additions F-1C and F-15D contributed smaller volumes
 
 ### 3. Operational Anomalies
-[To be filled with actual insights after analysis]
+- Isolation Forest detected 149 anomalous days (5.03% of production days)
+- Peak anomalies concentrated during 2009 (highest production period)
+- Anomalies correspond to extreme production values and operational transitions
 
 ### 4. Recommendations
-[To be filled with actual recommendations after analysis]
+- Deploy Ridge Regression model for daily production forecasts (sub-1% error)
+- Prioritize F-12 and F-14 for optimization efforts (85% of production)
+- Configure alerts when production deviates >5% from forecast for >3 days
+- Plan well interventions during seasonally low production periods
 
 ---
 
