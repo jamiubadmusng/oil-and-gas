@@ -374,4 +374,4 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 - 📧 Email: [jamiubadmus001@gmail.com](mailto:jamiubadmus001@gmail.com)
 - 🔗 GitHub: [jamiubadmusng](https://github.com/jamiubadmusng)
 - 💼 LinkedIn: [Jamiu Olamilekan Badmus](https://www.linkedin.com/in/jamiu-olamilekan-badmus-9276a8192/)
-- 🌐 Website: [Portfolio](https://sites.google.com/view/jamiu-olamilekan-badmus/)
+- 🌐 Website: [sites.google.com/view/jamiu-olamilekan-badmus](https://sites.google.com/view/jamiu-olamilekan-badmus/)
